@@ -1,56 +1,90 @@
-const gulp = require('gulp');
-const autoprefixer = require('gulp-autoprefixer');
-const clean = require('gulp-clean');
-const css = require('gulp-clean-css');
-const concat = require('gulp-concat');
-const imagemin = require('gulp-imagemin');
-const minify = require('gulp-js-minify');
-const sass = require('gulp-sass');
-const scss = require('gulp-scss');
-const uglify = require('gulp-uglify');
-const browserSync = require('browser-sync');
-
-
-const cleanDist = () => {
-    return gulp.src('dist/*/').pipe(clean());
+const { src, dest, watch } = require("gulp");
+const browserSync = require("browser-sync").create();
+const sass = require("gulp-sass");
+const concat = require("gulp-concat");
+const minifyImg =require("gulp-imagemin");
+const minifyJS =require("gulp-js-minify");
+const cleancss = require("gulp-clean-css");
+const autoprefixer = require("gulp-autoprefixer");
+const path = {
+    src: {
+        server: "./src",
+        styles: "./src/scss",
+        js: "./src/js",
+        img: "./src/img",
+    },
+    dest: {
+        server: "./dist/",
+        js: "./dist/js",
+        img: "./dist/img"
+    },
 };
-
-const styles = () => {
-    return gulp.src('src/scss/main.scss')
-        .pipe(sass())
-        .pipe(autoprefixer())
-        .pipe(css())
-        .pipe(gulp.dest('dist/css/'));
-};
-
-const scripts = () => {
-    return gulp.src('src/js/*.js')
-        .pipe(concat('main.js'))
-        .pipe(uglify())
-        .pipe(minify())
-        .pipe(gulp.dest('dist/js/'))
-};
-
-const images = () => {
-    return gulp.src('src/img/*')
-        .pipe(gulp.dest('dist/img/'))
-};
-
-const refreshPage = (done) => {
+const serve = function () {
     browserSync.init({
-        server: "./"
+        server: {
+            baseDir: "./",
+        },
+        port: 5500,
     });
-
-
-    gulp.watch("src/scss/*.scss", styles).on('change', browserSync.reload);
-    gulp.watch("src/js/*.js", scripts).on('change', browserSync.reload);
-    gulp.watch("src/img/*", images).on('change', browserSync.reload);
-    gulp.watch("index.html").on('change', browserSync.reload);
-    done();
 };
-
-
-gulp.task('build', gulp.series(cleanDist, styles, scripts, images));
-gulp.task('dev', refreshPage);
-
-exports.default = refreshPage;
+const img = function () {
+    return src(path.src.img + '/*')
+        .pipe(minifyImg())
+        .pipe(dest('./dist/img'));
+};
+// ============================ Dev ====================================
+const sassDev = function () {
+    return src(path.src.styles + "/**/*.scss")
+        .pipe(sass().on("error", sass.logError))
+        .pipe(concat('styles.min.css'))
+        .pipe(dest(path.dest.server));
+};
+const scriptsDev = function () {
+    return src(path.src.server + "/**/*.js")
+        .pipe(concat("scripts.min.js"))
+        .pipe(dest(path.dest.server));
+};
+const dev = function (cb) {
+    serve();
+    sassDev();
+    scriptsDev();
+    img();
+    watch("./**/*.html", function (cb) {
+        browserSync.reload();
+        cb();
+    });
+    watch(path.src.styles + "/**/*.scss", function (cb) {
+        sassDev();
+        browserSync.reload();
+        cb();
+    });
+    watch(path.src.js + "/**/*.js", function (cb) {
+        scriptsDev();
+        browserSync.reload();
+        cb();
+    });
+    cb()
+};
+// ============================ build =================================
+const sassBuild = function () {
+    return src(path.src.styles + "/**/*.scss")
+        .pipe(sass({ outputStyle: "compressed" }).on("error", sass.logError))
+        .pipe(autoprefixer({ browsers: ['last 25 versions'] }))
+        .pipe(cleancss())
+        .pipe(concat('styles.min.css'))
+        .pipe(dest(path.dest.server));
+};
+const scriptsBuild = function () {
+    return src(path.src.server + "/**/*.js")
+        .pipe(minifyJS())
+        .pipe(concat("scripts.min.js"))
+        .pipe(dest(path.dest.server));
+};
+const build = function(cb) {
+    sassBuild();
+    scriptsBuild();
+    img();
+    cb();
+};
+exports.dev = dev;
+exports.build = build;
