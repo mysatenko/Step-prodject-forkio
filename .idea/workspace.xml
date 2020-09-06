@@ -73,8 +73,16 @@
       <option name="presentableId" value="Default" />
       <updated>1598819589924</updated>
       <workItem from="1598819592263" duration="4167000" />
-      <workItem from="1599393634138" duration="2637000" />
+      <workItem from="1599393634138" duration="3297000" />
     </task>
+    <task id="LOCAL-00001" summary="gulp fixed">
+      <created>1599398730964</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599398730964</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,11 +100,23 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gulp fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="gulp fixed" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="1972" y="333" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598819957941">
       <screen x="1280" y="23" width="1920" height="1002" />
     </state>
     <state x="1972" y="333" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.777/1280.23.1920.1002@1280.23.1920.1002" timestamp="1598819957941" />
+    <state x="211" y="23" key="CommitChangelistDialog2" timestamp="1599398730456">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="211" y="23" key="CommitChangelistDialog2/0.23.1280.777/1280.23.1920.1002@0.23.1280.777" timestamp="1599398730456" />
+    <state x="240" y="138" key="Vcs.Push.Dialog.v2" timestamp="1599398741296">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="240" y="138" key="Vcs.Push.Dialog.v2/0.23.1280.777/1280.23.1920.1002@0.23.1280.777" timestamp="1599398741296" />
     <state x="1905" y="244" width="670" height="676" key="search.everywhere.popup" timestamp="1598821261111">
       <screen x="1280" y="23" width="1920" height="1002" />
     </state>
