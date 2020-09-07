@@ -20,7 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09422da6-868f-46f3-9360-d51c81358b17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/img/foto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icon4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +36,15 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="block_prices-scss" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGulp">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="ProjectId" id="1gploKkLLV1VM3danmR81lc2sSY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -45,6 +56,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -73,7 +85,8 @@
       <option name="presentableId" value="Default" />
       <updated>1598819589924</updated>
       <workItem from="1598819592263" duration="4167000" />
-      <workItem from="1599393634138" duration="3297000" />
+      <workItem from="1599393634138" duration="8127000" />
+      <workItem from="1599495212110" duration="964000" />
     </task>
     <task id="LOCAL-00001" summary="gulp fixed">
       <created>1599398730964</created>
@@ -82,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599398730964</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="gulp fixed1">
+      <created>1599399122754</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599399122754</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,24 +122,34 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gulp fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="gulp fixed" />
+    <MESSAGE value="gulp fixed1" />
+    <option name="LAST_COMMIT_MESSAGE" value="gulp fixed1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1972" y="333" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598819957941">
       <screen x="1280" y="23" width="1920" height="1002" />
     </state>
     <state x="1972" y="333" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.777/1280.23.1920.1002@1280.23.1920.1002" timestamp="1598819957941" />
-    <state x="211" y="23" key="CommitChangelistDialog2" timestamp="1599398730456">
+    <state x="211" y="23" key="CommitChangelistDialog2" timestamp="1599399122459">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="211" y="23" key="CommitChangelistDialog2/0.23.1280.777/1280.23.1920.1002@0.23.1280.777" timestamp="1599398730456" />
-    <state x="240" y="138" key="Vcs.Push.Dialog.v2" timestamp="1599398741296">
+    <state x="211" y="23" key="CommitChangelistDialog2/0.23.1280.777/1280.23.1920.1002@0.23.1280.777" timestamp="1599399122459" />
+    <state x="240" y="138" key="Vcs.Push.Dialog.v2" timestamp="1599399187133">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="240" y="138" key="Vcs.Push.Dialog.v2/0.23.1280.777/1280.23.1920.1002@0.23.1280.777" timestamp="1599398741296" />
-    <state x="1905" y="244" width="670" height="676" key="search.everywhere.popup" timestamp="1598821261111">
-      <screen x="1280" y="23" width="1920" height="1002" />
+    <state x="240" y="138" key="Vcs.Push.Dialog.v2/0.23.1280.777/1280.23.1920.1002@0.23.1280.777" timestamp="1599399187133" />
+    <state x="438" y="332" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599399258079">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
+    <state x="438" y="332" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.777/1280.23.1920.1002@0.23.1280.777" timestamp="1599399258079" />
+    <state x="515" y="275" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1599410956757">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="515" y="275" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.23.1280.777/1280.23.1920.1002@0.23.1280.777" timestamp="1599410956757" />
+    <state x="417" y="194" width="670" height="525" key="search.everywhere.popup" timestamp="1599411081223">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="417" y="194" width="670" height="525" key="search.everywhere.popup/0.23.1280.777/1280.23.1920.1002@0.23.1280.777" timestamp="1599411081223" />
     <state x="1905" y="244" width="670" height="676" key="search.everywhere.popup/0.23.1280.777/1280.23.1920.1002@1280.23.1920.1002" timestamp="1598821261111" />
   </component>
 </project>
