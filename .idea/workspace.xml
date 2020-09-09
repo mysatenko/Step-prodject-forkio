@@ -20,13 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09422da6-868f-46f3-9360-d51c81358b17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/foto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/icon3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/icon4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_section-prices.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_section-review.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/Laye1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/logo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/logo3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/logo4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/logo5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/logo6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_block-prices.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_block-prices.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_body.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +46,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="block_prices-scss" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,7 +96,8 @@
       <updated>1598819589924</updated>
       <workItem from="1598819592263" duration="4167000" />
       <workItem from="1599393634138" duration="8127000" />
-      <workItem from="1599495212110" duration="964000" />
+      <workItem from="1599495212110" duration="4136000" />
+      <workItem from="1599542706239" duration="9642000" />
     </task>
     <task id="LOCAL-00001" summary="gulp fixed">
       <created>1599398730964</created>
@@ -102,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599399122754</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add section page__section-review">
+      <created>1599496415315</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599496415315</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,20 +141,23 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gulp fixed" />
     <MESSAGE value="gulp fixed1" />
-    <option name="LAST_COMMIT_MESSAGE" value="gulp fixed1" />
+    <MESSAGE value="add section page__section-review" />
+    <option name="LAST_COMMIT_MESSAGE" value="add section page__section-review" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1972" y="333" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598819957941">
       <screen x="1280" y="23" width="1920" height="1002" />
     </state>
     <state x="1972" y="333" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.777/1280.23.1920.1002@1280.23.1920.1002" timestamp="1598819957941" />
-    <state x="211" y="23" key="CommitChangelistDialog2" timestamp="1599399122459">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="2314" y="184" key="CommitChangelistDialog2" timestamp="1599496414918">
+      <screen x="1280" y="23" width="1920" height="1057" />
     </state>
+    <state x="2314" y="184" key="CommitChangelistDialog2/0.23.1280.728/1280.23.1920.1057@1280.23.1920.1057" timestamp="1599496414918" />
     <state x="211" y="23" key="CommitChangelistDialog2/0.23.1280.777/1280.23.1920.1002@0.23.1280.777" timestamp="1599399122459" />
-    <state x="240" y="138" key="Vcs.Push.Dialog.v2" timestamp="1599399187133">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="1640" y="179" key="Vcs.Push.Dialog.v2" timestamp="1599496422744">
+      <screen x="1280" y="23" width="1920" height="1057" />
     </state>
+    <state x="1640" y="179" key="Vcs.Push.Dialog.v2/0.23.1280.728/1280.23.1920.1057@1280.23.1920.1057" timestamp="1599496422744" />
     <state x="240" y="138" key="Vcs.Push.Dialog.v2/0.23.1280.777/1280.23.1920.1002@0.23.1280.777" timestamp="1599399187133" />
     <state x="438" y="332" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599399258079">
       <screen x="0" y="23" width="1280" height="777" />

@@ -10,13 +10,18 @@ html {
 html,
 body {
     height: 100%;
+
 }
 
 
 .container {
-    max-width: 1760px;
-    margin: 0 auto;
     padding: 0 10px;
+}
+@media screen and (max-height:780px){
+    .container {
+        width: 748px;
+        padding: 0 10px;
+    }
 }
 
 a {
