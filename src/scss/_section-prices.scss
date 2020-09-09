@@ -1,0 +1,90 @@
+.page__section-title {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+
+}
+.section__prise-wide {
+  text-align: center;
+  background: rgba(70, 48, 72, 0.8);
+}
+.page__section-prices {
+  background-image: url("img/Laye1.png");
+}
+
+
+.section__prise {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 0px 10px;
+}
+.section__prise-title {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 36px 40px;
+  background: rgba(255, 255, 255, 0.1);
+  text-transform: uppercase;
+}
+.prise__wide-title {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 36px 60px;
+  background: rgba(70, 48, 72, 0.8);
+  text-transform: uppercase;
+}
+.section__prise-value {
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 62px;
+  color: #FFFFFF;
+}
+.section__prise-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0px 35px;
+}
+.section__prise-separator {
+  width: 60px;
+  height: 5px;
+  background: #8D81AC;;
+  border: none;
+
+}
+.pection__price-button {
+  padding: 15px 38px;
+  border-radius: 25px;
+  border: none;
+  background: rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 37px 0px 67px 0px;
+}
+@media screen and (max-height:780px){
+  .page__section-prices {
+    padding: 30px 0px;
+  }
+  .price__section-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .section__prise {
+    width: 257px;
+    margin: 30px 30px;
+  }
+  .section__prise-wide {
+    width: 299px;
+    margin: 0px 10px;
+  }
+}
