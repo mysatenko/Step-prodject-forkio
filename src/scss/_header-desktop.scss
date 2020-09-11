@@ -1,0 +1,22 @@
+@media (min-width: 993px) {
+    header {
+        background-color: #000;
+        .container {
+            padding: 30px 16px 0;
+            background-color: transparent;
+        }
+    }
+    .logo {
+        margin: 0;
+    }
+    .menu {
+        margin: 0 0 0 auto;
+        width: auto;
+        li {
+            margin-right: 48px;
+        }
+    }
+    .btn_buy {
+        order: 3;
+    }
+}

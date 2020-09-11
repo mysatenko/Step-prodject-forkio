@@ -1,0 +1,27 @@
+@media (min-width: 993px) {
+    .talking {
+        background-image: url(../img/talking_bg_993.jpg);
+        span {
+            width: 90%;
+            max-width: 1010px;
+            &:after {
+                width: 90%;
+            }
+        }
+    }
+    .talking_companies {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        div {
+            max-width: 90%;
+            margin: 0 auto;
+        }
+        div:last-child p {
+            margin-bottom: 118px;
+        }
+        p {
+            width: auto;
+            max-width: 345px;
+        }
+    }
+}

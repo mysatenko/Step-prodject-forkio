@@ -1,0 +1,9 @@
+@mixin burgerLine($width) {
+    content: "";
+    display: block;
+    position: absolute;
+    width: $width;
+    height: 3px;
+    border-radius: 3px;
+    background-color: #ffffff;
+}

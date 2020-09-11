@@ -1,0 +1,62 @@
+.talking {
+    background-image: url(../img/talking_bg_320.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 52px;
+    font-family: 'Lato', sans-serif;
+    h2 {
+        width: 100%;
+        margin-bottom: 53px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 38px;
+        font-weight: bold;
+        line-height: 42px;
+        color: #ffffff;
+    }
+    span {
+        display: block;
+        position: relative;
+        max-width: 252px;
+        margin: 0 auto;
+        padding-bottom: 24px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 21px;
+        color: #A291A5;
+        &:after {
+            content: '';
+            display: block;
+            width: 95%;
+            height: 2px;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #645766;
+        }
+    }
+}
+
+.talking_companies {
+    div {
+        display: grid;
+        grid-template-rows: 65px;
+    }
+    div:last-child p {
+        margin-bottom: 37px;
+    }
+    img {
+        margin: auto;
+    }
+    p {
+        margin: 22px auto 0;
+        max-width: 270px;
+        font-size: 16px;
+        font-weight: 600;
+        font-style: italic;
+        line-height: 24px;
+        color: #ffffff;
+        margin-bottom: 45px;
+    }
+}

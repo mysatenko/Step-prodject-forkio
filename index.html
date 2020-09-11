@@ -1,13 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="dist/styles.min.css">
-
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,400;1,600&family=Montserrat:wght@200;300;400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <h1>Forkio</h1>
+            </a>
+            <ul class="menu">
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">About Fork</a></li>
+                <li><a href="#">Buying Options</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+            <button class="btn_buy">Buy Now</button>
+            <div class="burger"><span></span></div>
+        </div>
+    </header>
+    <section class="first_screen">
+        <div class="container">
+            <h2>Fork App</h2>
+            <p>A Real Gamechanger In The World Of Web-Development</p>
+            <span>v. 2.8 For Mac and Windows</span>
+        </div>
+    </section>
+
+    <section class="download">
+        <div class="container">
+            <button class="btn_buy btn_buy--medium">Download For Free Now</button>
+            <p>Unlimited 30-Days Trial Period</p>
+        </div>
+    </section>
+
     <section class="page__section-review">
         <div class="container">
             <h2 class="section__review-title">Revolutionary editor</h2>
@@ -17,24 +50,21 @@
             <ul class="section__review-icon">
                 <li class="review__icon-list">
                     <a class="icon__list">
-                        <svg height="16" class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path></svg>
-                        Watch
+                        <svg height="16" class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path></svg>                        Watch
                     </a>
-                    <a href="#"  class="icon-text">1,397</a>
+                    <a href="#" class="icon-text">1,397</a>
                 </li>
 
                 <li class="review__icon-list">
                     <a class="icon__list">
-                        <svg vertical_align="text_bottom" height="16" class="octicon octicon-star v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
-                        Star
+                        <svg vertical_align="text_bottom" height="16" class="octicon octicon-star v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>                        Star
                     </a>
                     <a class="icon-text" href="#">21,038</a>
                 </li>
 
                 <li class="review__icon-list">
                     <a class="icon__list">
-                        <svg class="octicon octicon-repo-forked" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>
-                        Fork
+                        <svg class="octicon octicon-repo-forked" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>                        Fork
                     </a>
                     <a href="#" class="icon-text">4,391</a>
                 </li>
@@ -42,7 +72,9 @@
         </div>
         <div class="section__review-wrap">
             <div class="section__reviwe-advantages">
-                <h3 class="review-advantages-title">< Here is what you get ></h3>
+                <h3 class="review-advantages-title">
+                    < Here is what you get>
+                </h3>
                 <div class="reviwe-advantages-item">
                     <img src="src/img/icon1.png" alt="">
                     <div class="advantages__wrap">
@@ -89,18 +121,52 @@
                 </div>
             </div>
             <div class="section__review-images">
-                <h3 class="review__images-title"> < Here is what you get > </h3>
+                <h3 class="review__images-title">
+                    < Here is what you get>
+                </h3>
                 <img class="review__images" src="src/img/foto.png" alt="">
             </div>
         </div>
     </section>
 
+    <section class="talking">
+        <div class="container">
+            <h2>People Are Talking About Fork</h2>
+            <div class="talking_companies">
+                <div>
+                    <img src="/src/img/company_1.png" alt="Smashing magazine">
+                    <p>Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet. Proin id dignissim magna. Sed varius urna et pulvinar venenatis.</p>
+                </div>
+                <div>
+                    <img src="/src/img/company_2.png" alt="Smashing magazine">
+                    <p>Donec euismod dolor ut ultricies consequat. Vivamus urna ipsum, rhoncus molestie neque ac, mollis eleifend nibh.</p>
+                </div>
+                <div>
+                    <img src="/src/img/company_3.png" alt="Smashing magazine">
+                    <p>In efficitur in velit et tempus. Duis nec odio dapibus, suscipit erat fringilla, imperdiet nibh. Morbi tempus auctor felis ac vehicula.</p>
+                </div>
+                <div>
+                    <img src="/src/img/company_4.png" alt="Smashing magazine">
+                    <p>Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet. Proin id dignissim magna. Sed varius urna et pulvinar venenatis.</p>
+                </div>
+                <div>
+                    <img src="/src/img/company_5.png" alt="Smashing magazine">
+                    <p>Praesent ut eros tristique, malesuada lectus vel, lobortis massa. Nulla faucibus lorem id arcu consequat faucibus.</p>
+                </div>
+                <div>
+                    <img src="/src/img/company_6.png" alt="Smashing magazine">
+                    <p>Fusce pharetra erat id odio blandit, nec pharetra eros venenatis. Pellentesque porttitor cursus massa et vestibulum.</p>
+                </div>
+            </div>
+            <span>Duis lobortis arcu sed arcu tincidunt feugiat. Nulla nisi mauris, facilisis vitae aliquet id, imperdiet quis nibh. Donec eget elit eu libero tincidunt consequat nec elementum orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span>
+        </div>
+    </section>
 
     <section class="page__section-prices">
         <div class="blur"></div>
         <div class="container">
             <h3 class="page__section-title">Fork Subscription Pricing</h3>
-           <div class="price__section-wrap">
+            <div class="price__section-wrap">
                 <div class="section__prise">
                     <h4 class="section__prise-title">
                         Students
@@ -151,7 +217,7 @@
                     </h4>
                     <span class="section__prise-value">
                         $159
-                    </span> 
+                    </span>
                     <p class="section__prise-text">per month</p>
                     <hr class="section__prise-separator">
                     <p class="section__prise-text">Unlimited Team Members 24/ 7 Phone Support</p>
@@ -159,9 +225,10 @@
                         <button class="pection__price-button">Purchase</button>
                     </a>
                 </div>
-           </div>
+            </div>
         </div>
     </section>
-    
+
 </body>
+
 </html>

@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    min-width: 320px;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
+    border: none;
+}
+
+@media (min-width: 480px) {}

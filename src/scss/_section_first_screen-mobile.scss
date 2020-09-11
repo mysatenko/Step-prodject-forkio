@@ -1,0 +1,24 @@
+.first_screen {
+    background-image: url(../img/first_screen_bg.jpg);
+    background-position: center -150px;
+    padding: 50px 0 416px;
+    font-weight: 300;
+    h2 {
+        margin-bottom: 19px;
+        font-size: 48px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    p {
+        margin: 0 auto 14px;
+        width: 298px;
+        font-size: 18px;
+        line-height: 24px;
+        color: #8D81AC;
+    }
+    span {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #848E97;
+    }
+}

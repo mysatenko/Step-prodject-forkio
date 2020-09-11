@@ -1,0 +1,26 @@
+@media (min-width: 480px) {
+    .talking {
+        background-image: linear-gradient(to top, rgba(70, 48, 72, 1), rgba(70, 48, 72, 0) 200px), url(../img/talking_bg_481.jpg);
+        span {
+            max-width: 95%;
+            &:after {
+                width: 85%;
+            }
+        }
+    }
+    .talking_companies {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        div {
+            max-width: 90%;
+            margin: 0 auto;
+        }
+        div:last-child p {
+            margin-bottom: 68px;
+        }
+        p {
+            width: auto;
+            max-width: 345px;
+        }
+    }
+}
